@@ -11,12 +11,15 @@ export default class ProductPages extends Component {
         return (
             <Container className="mt-4 mb-4">
                 <Row>
+                    <Col md="12">
+                <h3 className="text-center">Shell Helix</h3>
+                </Col>
                     <Col sm="4">
                         <img src={olishellhelix} alt={olishellhelix} width="100%"/>
                         <img className="mt-4" src={olishellhelix1liter} alt={olishellhelix1liter} width="100%"/>
                     </Col>
                     <Col sm="8">
-                        <h3>Shell Helix</h3>
+                        
                         <p>
                             1. Tingkat penguapan rendah
                         </p>
@@ -65,12 +68,12 @@ export default class ProductPages extends Component {
                         <img className="mt-4" src={olimobil1liter} alt={olimobil1liter} width="100%"/>
                     </Col>
                     <Col sm="4">
-                        <img src={olicastrolmagnatec} alt={olicastrolmagnatec} width="90%"/>
-                        <img className="mt-4" src={olicastrolgtx4liter} alt={olicastrolgtx4liter} width="90%"/>
+                        <img src={olicastrolmagnatec} alt={olicastrolmagnatec} width="55%"/>
+                        <img className="mt-4" src={olicastrolgtx4liter} alt={olicastrolgtx4liter} width="45%"/>
                     </Col>
                     <Col sm="8">
                         <h3>Oli Castrol</h3>
-
+                        <p>siapa yang tidak kenal dengan castrol ya? oli castrol juga salah satu oli mobil yang terbaik juga paling populer di Indonesia</p>
                     </Col>
                     
                 </Row>

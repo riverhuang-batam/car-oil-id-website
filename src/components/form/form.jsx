@@ -1,28 +1,24 @@
 import React from 'react'
-import {Form, FormGroup, Label, Row, Col, Input, Button, Container} from 'reactstrap'
+import {Form, FormGroup, Label, Input, Button} from 'reactstrap'
 const FormSend = () =>(
-    <Container className="mt-4">
-        <Row>
-            <Col md="4">
-        <Form>
-            <FormGroup action= "https://formspree.io/Chifuk0999@gmail.com" method="POST">
+    
+        <Form action= "https://formspree.io/Chifuk0999@gmail.com" method="POST">
+            <FormGroup>
                 <Label>E-mail</Label>
-                <Input type="email" name="email" placeholder="E-mail"/>
+                <Input type="email" name="email" placeholder="E-mail" required/>
             </FormGroup>
             <FormGroup>
                 <Label>UserName</Label>
-                <Input type="name" name="name" placeholder="UserName"/>
+                <Input type="name" name="name" placeholder="UserName" required/>
             </FormGroup>
             <FormGroup>
                 <Label>Message</Label>
-                <Input type="textarea" name="Message" placeholder="Message"/>
+                <Input type="textarea" name="Message" placeholder="Message" required/>
             </FormGroup>
             <FormGroup>
-            <Button>Submit</Button>
+            <Button color="success">Submit</Button>
             </FormGroup>
         </Form>
-            </Col>
-        </Row>
-    </Container>
+    
 )
 export default FormSend;
