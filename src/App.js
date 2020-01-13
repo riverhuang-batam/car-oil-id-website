@@ -23,6 +23,7 @@ function App() {
                     <JumbotronOli/>
                     <ProductPages/>
                     <BodyWeb/>
+                    <p className="text-center mt-4 mb-4">copyright ©Term | Web was made by Unknown</p>
                 </div>
             )
 }

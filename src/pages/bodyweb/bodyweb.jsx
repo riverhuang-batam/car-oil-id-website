@@ -9,7 +9,7 @@ const BodyWeb = () => (
     
         <Container>
             <Videos/>
-            <h1 className="text-center">Contact</h1>    
+            <h1 className="text-center mt-4">Contact</h1>    
         <Row>
             <Col md="6">
             <Contact/>

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import helixtemplate from '../../images/helixtemplate.jpg'
+import olihelix3 from '../../images/olihelix3.jpg'
 import olishellhelix from '../../images/olishellhelix.jpeg'
 import olishellhelix1liter from '../../images/olishellhelix1liter.jpg'
 import {Container, Row, Col} from 'reactstrap'
@@ -26,8 +27,10 @@ Dengan perpaduan yang saling melengkapi ini, pelumas Shell Helix Ultra with Pure
                 
                 </Col>
                     <Col sm="4">
-                        <img src={olishellhelix} alt={olishellhelix} width="100%"/>
+                    <img src={olihelix3} alt={olihelix3} width="100%"/>
+                        <img className="mt-4" src={olishellhelix} alt={olishellhelix} width="100%"/>
                         <img className="mt-4" src={olishellhelix1liter} alt={olishellhelix1liter} width="100%"/>
+                        
                     </Col>
                     <Col sm="8">
                         <h3 className="text-center mt-4" >Why Use Shell helix?</h3>
