@@ -1,25 +1,38 @@
 import React, {Component} from 'react'
+import helixtemplate from '../../images/helixtemplate.jpg'
 import olishellhelix from '../../images/olishellhelix.jpeg'
-import olimobil1liter from '../../images/olimobil1liter.jpg'
-import olimobil4liter from '../../images/olimobil4liter.jpg'
-import olicastrolmagnatec from '../../images/olicastrolmagnatec.png'
-import olicastrolgtx4liter from '../../images/olicastrolgtx4liter.jpg'
 import olishellhelix1liter from '../../images/olishellhelix1liter.jpg'
 import {Container, Row, Col} from 'reactstrap'
 export default class ProductPages extends Component {
     render() {
         return (
             <Container className="mt-4 mb-4">
+                
+                <h1 className="text-center mt-4 mb-4">
+                    <b>
+                    SHELL HELIX
+                    </b>
+                </h1>
+                <img className="text-center mb-4" src={helixtemplate} alt={helixtemplate} width="100%"/>
                 <Row>
                     <Col md="12">
-                <h3 className="text-center">Shell Helix</h3>
+                    <p>
+                        Selama lebih dari 40 tahun, Shell akhirnya berhasil mengembangkan teknologi pelumas yang terbuat dari gas alam. Teknologi yang bernama PurePlus ini pun dimasukkan ke dalam pelumas Shell Helix Ultra dan dikombinasikan dengan Active Cleansing Technology.
+
+Dengan perpaduan yang saling melengkapi ini, pelumas Shell Helix Ultra with PurePlus Technology pun dapat menjaga sekaligus membersihkan mesin kendaraan seperti aru keluar dari pabrik.
+                        </p>
+                    </Col>
+                    <Col md="12">
+                
                 </Col>
                     <Col sm="4">
                         <img src={olishellhelix} alt={olishellhelix} width="100%"/>
                         <img className="mt-4" src={olishellhelix1liter} alt={olishellhelix1liter} width="100%"/>
                     </Col>
                     <Col sm="8">
-                        
+                        <h3 className="text-center mt-4" >Why Use Shell helix?</h3>
+                        <p> 
+                            Kenapa memakai oli ini dan apa saja keunggulan dari pelumas terbaru dari Shell ini.</p>
                         <p>
                             1. Tingkat penguapan rendah
                         </p>
@@ -59,23 +72,6 @@ export default class ProductPages extends Component {
                             bahan bakar mencapai tiga persen.
                         </p>
                     </Col>
-                    <Col sm="8">
-                        <h3>Oli Mobil</h3>
-
-                    </Col>
-                    <Col sm="4">
-                        <img src={olimobil4liter} alt={olimobil4liter} width="100%" height="180px"/>
-                        <img className="mt-4" src={olimobil1liter} alt={olimobil1liter} width="100%"/>
-                    </Col>
-                    <Col sm="4">
-                        <img src={olicastrolmagnatec} alt={olicastrolmagnatec} width="55%"/>
-                        <img className="mt-4" src={olicastrolgtx4liter} alt={olicastrolgtx4liter} width="45%"/>
-                    </Col>
-                    <Col sm="8">
-                        <h3>Oli Castrol</h3>
-                        <p>siapa yang tidak kenal dengan castrol ya? oli castrol juga salah satu oli mobil yang terbaik juga paling populer di Indonesia</p>
-                    </Col>
-                    
                 </Row>
             </Container>
         )
