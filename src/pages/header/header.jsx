@@ -1,12 +1,7 @@
 import React, {Component} from 'react'
 import {
     Navbar,
-    Nav,
-    NavbarBrand,
-    NavItem,
-    NavbarToggler,
-    Collapse,
-    
+    NavbarBrand
 } from 'reactstrap'
 import Logo from '../../images/logo_oli_design.png'
 export default class Header extends Component {
