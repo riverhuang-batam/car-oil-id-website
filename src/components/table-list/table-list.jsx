@@ -3,7 +3,7 @@ import {Table} from 'reactstrap'
 const TableList= () =>(
     <div className="mb-4">
         <h1 className="text-center mt-4 mb-4">List Harga Oli Shell Helix</h1>
-         <Table bordered>
+         <Table bordered className="text-center">
       <thead>
         <tr>
           <th>#</th>
