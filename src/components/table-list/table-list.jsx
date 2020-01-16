@@ -8,7 +8,7 @@ const TableList= () =>(
         <tr>
           <th>#</th>
           <th>Jenis Oli Shell Helix</th>
-          <th>spesifikasi</th>
+          <th>Spesifikasi</th>
           <th>Harga</th>
         </tr>
       </thead>
